@@ -8,3 +8,5 @@ RemoteSystemsTempFiles
 .recommenders
 build
 target
+bin
+**.class
