@@ -5,5 +5,6 @@ RemoteSystemsTempFiles
 .build
 .gradle
 .settings
+.recommenders
 build
 target
