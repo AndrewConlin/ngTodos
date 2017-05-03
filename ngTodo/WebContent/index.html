@@ -1,0 +1,46 @@
+<html ng-app="appModule">
+<head>
+	<title>ng Todo</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"/>
+ 	<link rel="stylesheet" href="./css/app.css"/>
+ 	
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	
+	<script src="js/angular.min.js"></script>
+	<script src="js/angular-route.min.js"></script>
+	<script src="js/angular-cookies.min.js"></script>
+	
+	<script src="app/authModule/auth.module.js"></script>
+	<script src="app/authModule/auth.service.js"></script>
+	<script src="app/authModule/login/login.component.js"></script>
+	<script src="app/authModule/logout/logout.component.js"></script>
+	<script src="app/authModule/register/register.component.js"></script>
+	
+	<script src="app/todo/todo.module.js"></script>
+	<script src="app/todo/todo.service.js"></script>
+	<script src="app/todo/incomplete.filter.js"></script>
+	<script src="app/todo/todoList/todoList.component.js"></script>
+	<script src="app/todo/todoShow/todoShow.component.js"></script>
+	
+	<script src="app/navModule/nav.module.js"></script>
+	<script src="app/navModule/navComponent/nav.component.js"></script>
+	
+	<script src="app/static/static.module.js"></script>
+	<script src="app/static/about/about.component.js"></script>
+	<script src="app/static/contact/contact.component.js"></script>
+	<script src="app/static/home/home.component.js"></script>
+	<script src="app/static/404/404.component.js"></script>
+	<script src="app/static/401/401.component.js"></script>
+	
+	<script src="app/appModule/app.module.js"></script>
+	<script src="app/appModule/appComponent/app.component.js"></script>
+	
+	
+</head>
+<body>
+	<app-component>Loading...</app-component>
+</body>
+</html>

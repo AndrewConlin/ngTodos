@@ -1,0 +1,16 @@
+<div ng-hide="vm.editMode">
+	<div class="center-div">
+		<h4 class="editLabel">Task:</h4><span>{{vm.todo.task}}</span></br>
+		<h4 class="editLabel">Desc:</h4><span>{{vm.todo.description}}</span></br></br>
+		<button ng-click="vm.editMode = true; vm.setEditTodo();" class="btn btn-primary">Edit</button>
+		<button ng-click="vm.backButton()" class="btn btn-primary">Back</button>
+	</div>
+</div>
+
+<form ng-show="vm.editMode"class="text-center">
+	<input type= "text" ng-model="vm.editTodo.task"/></br>
+	<textarea ng-model="vm.editTodo.description"/></br>
+	<input type= "submit" ng-click="vm.save(vm.editTodo);" value="Save"  class="btn btn-success"/>
+	<input type= "submit" ng-click="vm.editMode = false; vm.editTodo = null;" value="Cancel"  class="btn btn-primary"/>
+</form>
+

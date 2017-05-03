@@ -1,0 +1,45 @@
+nav {
+	margin-bottom: 15px;
+}
+
+form {
+	margin-bottom: 20px;
+}
+
+h4 {
+	margin-bottom: 20px;
+}
+
+.editLabel {
+	display: inline;
+	margin-right: 20px;
+}
+
+.center-div
+{
+     margin: 0 auto;
+     width: 400px; 
+}
+.centerError
+{
+     margin: 0 auto;
+     width: 700px; 
+}
+
+.red {
+	background : #ff8585;
+}
+
+.yellow {
+	background : #fdf882;
+	color : #d3d3d3;
+}
+
+.green {
+	background : #5cb85c;
+}
+
+.strikethrough {
+	color : #808080;
+	text-decoration : line-through;	
+}

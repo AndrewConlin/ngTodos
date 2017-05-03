@@ -1,0 +1,7 @@
+<div ng-repeat="item in vm.list">
+	<product-card product="item"></product-card>
+</div>
+
+<new-product on-create="vm.addProduct(product)"></new-product>
+
+<h4>Number of Products: {{vm.count()}}</h4>
